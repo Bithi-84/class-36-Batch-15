@@ -1,0 +1,13 @@
+
+
+createElement('')
+
+append
+
+appenedchild
+
+prepend
+
+querySelector()
+
+insertBefore(element, afterElement)
