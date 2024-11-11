@@ -7,15 +7,15 @@ document.body.append(hElement);
 
 let pElement = document.createElement('p');
 
-pElement.innerHTML = "Hi"
+pElement.innerHTML = "Hi";
 
 document.body.prepend(pElement);
 
-let testDiv = querySelector("#testDiv");
+let testDiv = document. querySelector("#testDiv");
 
-let bTag = querySelector("#bTag");
+let bTag = document.querySelector("#bTag");
 
-testDiv.insertBefore(pTag, bTag);
+testDiv.insertBefore(pElement,bTag);
 
 let spanElement = document.createElement('span');
 
